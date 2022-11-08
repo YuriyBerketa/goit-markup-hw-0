@@ -154,20 +154,22 @@ margin-right: 0;
 .futer-contact {
   display: flex;
   align-items: center;
-  height: 50px;
+
 }
-.icon-contact {
-  padding: 0;
-  border: none;
+.icon-contact {  
   margin-right: 10px;
-  color: ;
+  fill: var(--secondary-color);
+
+}
+.icon-contact:hover {
+  fill: var(--third-color);
 }
 .hero {
   background-color: var(--background-footer-color);
   background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   height: 600px;
   max-width: 1600px;
-margin: auto;
+  margin: auto;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -175,19 +177,6 @@ margin: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 }
-
-/* .overlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left:auto;
-  margin-right: auto;
-  background-image: linear-gradient(to right rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
-
 
 .hero-title {
   color: var(--main-color);
@@ -217,6 +206,25 @@ margin: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+}
+
+.benefits-icon {
+  display: flex;
+  background-color: var(--background-secondary-color);
+  border-radius: 4px;
+  justify-content: center;
+  padding: 25px, 0px;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+align-items: center;
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.b-i {
+  display: flex;
 }
 
 .sort-section {
