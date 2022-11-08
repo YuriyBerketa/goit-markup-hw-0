@@ -406,6 +406,17 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     border-radius: 0px 0px 4px 4px;
 }
 
+.social {
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 30px;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 
 .our-team {
   color: var(--first-color);
