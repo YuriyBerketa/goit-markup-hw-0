@@ -518,8 +518,12 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
   background-color: var(--background-footer-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 
+.align {
+  display: flex;
+}
 .footer-container {
   display: flex;
 }
@@ -577,6 +581,8 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
   display: flex;
     text-align: center;
       align-items: center;
+      margin-left: 70px;
+      margin-bottom: 100px;
 }
 .footer-social {
   display: block;
