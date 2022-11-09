@@ -327,6 +327,7 @@ border-left: 1px solid var(--port-border-color);
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.25);
   /* float: left; */
 }
 
