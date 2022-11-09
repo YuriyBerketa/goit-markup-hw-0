@@ -447,7 +447,7 @@ fill:var(--main-color);
 /* .social-link-list:hover {
   background-color: var(--third-color);
   fill: var(--main-color); */
-}
+/* } */
 .our-team {
   color: var(--first-color);
   font-weight: 700;
@@ -515,8 +515,13 @@ fill:var(--main-color);
     border-radius: 4px;
     justify-content: center;
     align-items: center;
+    fill: var(--social-color);
 }
 
+.client-list-item:hover {
+  fill: var(--third-color);
+  border: 1px solid #2196f3;
+}
 
 .client-logo {
   width: 106px;
