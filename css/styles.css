@@ -18,6 +18,7 @@
   --main-color: #ffffff;
   --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
   --port-border-color: #EEEEEE;
+  --social-color: #AFB1B8;
 
 }
 body {
@@ -161,12 +162,7 @@ margin-right: 0;
 }
 .icon-contact {  
   margin-right: 10px;
-  /* fill: var(--secondary-color); */
 }
-
-/* .icon-contact:hover {
-  fill: var(--third-color);
-} */
 
 
 .hero {
@@ -432,15 +428,23 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color:#2196f3; */
+  background-color: var(--main-color);
   width: 44px;
   height: 44px;
   border-radius: 50%;
 }
 
+.social-link:hover {
+background-color: var(--third-color);
+fill: var(--social-color);
+}
+
 .social-link-list {
   display: flex;
-
+  fill: var(--social-color);
+}
+.social-link-list:hover {
+  fill: var(--main-color);
 }
 .our-team {
   color: var(--first-color);
