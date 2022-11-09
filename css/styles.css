@@ -543,13 +543,17 @@ fill:var(--main-color);
   display: flex;
 }
 
-/* .align {
+.align {
   display: flex;
-} */
+}
 .footer-container {
+  /* width: 231px; */
   /* display: flex; */
 }
-
+footer-container
+/* .address {
+  /* display: flex; */
+/* } */ */
 .add-list {
     margin-top: 20px;
 }
@@ -576,6 +580,9 @@ fill:var(--main-color);
   line-height: 1.71;
 }
 
+.address > .add-list {
+  margin-top: 20px;
+}
 .address,
 .mail,
 .tel {
@@ -599,19 +606,26 @@ fill:var(--main-color);
 }
 
 
-.footer-messenger {
+/* .footer-messenger {
   /* display: flex; */
-  margin: 0;
+  /* margin: 0;
   padding: 0;
     text-align: center;
       align-items: center;
       margin-right: 70px;
       margin-top: 8px;
+} */ 
+/* .footer-container a{
+  mb20
+} */
+.footer-messenger {
+  margin-left: 70px;
+  margin-top: -12px;
 }
 .footer-social {
   display: block;
-
-  
+    text-align: center;
+    align-items: center;
 }
 
 .footer-client-list {
