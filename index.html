@@ -8,17 +8,22 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
-    <link
+    /> -->
+    <!-- <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
-    />
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Студія</title>
   </head>
@@ -45,8 +50,11 @@
         <ul class="connect-list">
           <li>
             <a href="mailto:info@devstudio.com" class="connect-link link">
-              <div class="futer-contact">
-                <svg class="icon-contact" width="16px" heidth="12px">
+              <div class="header-contact">
+                <!-- <svg class="icon-contact" width="16px" heigth="12px">
+                  <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                </svg> -->
+                <svg class="icon-contact" width="16" height="12">
                   <use href="./images/symbol-defs.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com
@@ -54,8 +62,11 @@
             </a>
           </li>
           <li>
-            <div class="futer-contact">
-              <svg class="icon-contact" width="10px" heidth="16px">
+            <div class="header-contact">
+              <!-- <svg class="icon-contact" width="10px" heigth="16px">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              </svg> -->
+              <svg class="icon-contact" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               <a href="tel:+380961111111" class="connect-link link"
@@ -503,7 +514,7 @@
         <a href="./index.html" class="logo"
           >Web<span class="studio-footer">Studio</span>
         </a>
-        <div class="align">
+        <!-- <div class="align"> -->
         <address>
           <ul class="add-list">
             <li>
@@ -520,8 +531,8 @@
               <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
             </li>
           </ul>
-          
         </address>
+        </div>
         <div class="footer-messenger">
           <section class="footer-social">
             <h2 class="footer-client-list">приєднуйтесь</h2>
@@ -557,8 +568,8 @@
             </ul>
           </section>
         </div>
-        </div>
-      </div>
+        <!-- </div> -->
+      <!-- </div> -->
     </footer>
   </body>
 </html>
