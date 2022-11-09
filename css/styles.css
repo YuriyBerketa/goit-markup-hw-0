@@ -568,6 +568,52 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
   color: var(--third-color);
 }
 
+.footer-social {
+  display: flex;
+  
+}
+
+.footer-client-list {
+color: var(--main-color);
+font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+ font-style: normal;
+  text-transform: uppercase;
+}
+
+.footer-social-list {
+list-style-type: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer-social-link-item {
+  /* width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff; */
+  margin-right: 10px;
+}
+
+.footer-social-list-item {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-social-logo {
+  display: flex;
+}
+
 .main-portfolio {
   font-size: 0;
 }
