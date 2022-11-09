@@ -520,6 +520,10 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
   padding-bottom: 60px;
 }
 
+.footer-container {
+  display: flex;
+}
+
 .add-list {
     margin-top: 20px;
 }
@@ -568,8 +572,15 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
   color: var(--third-color);
 }
 
-.footer-social {
+
+.footer-messenger {
   display: flex;
+    text-align: center;
+      align-items: center;
+}
+.footer-social {
+  display: block;
+
   
 }
 
@@ -582,6 +593,7 @@ font-family: Roboto, sans-serif;
   text-align: left;
  font-style: normal;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .footer-social-list {
@@ -589,6 +601,8 @@ list-style-type: none;
 display: flex;
 justify-content: center;
 align-items: center;
+margin: 0;
+padding: 0;
 }
 
 .footer-social-link-item {
