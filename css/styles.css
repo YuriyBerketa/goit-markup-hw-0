@@ -50,10 +50,14 @@ body {
     padding-right: 15px;
   }
 
+  .header {
+    border-bottom: 1px solid #ECECEC;
+  }
+
 .header-nav {
   display: flex;
   align-items: center;
- border-bottom: 1px solid #ECECEC;
+ /* border-bottom: 1px solid #ECECEC; */
 }
 
 .logo,
